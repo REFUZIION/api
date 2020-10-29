@@ -17,7 +17,7 @@ $db = $database->getConnection();
 $product = new Product($db);
 
 
-$result = $product->read();
+$result = $product->read($id);
 $num = $result->num_rows;
 
 if($num>0){
