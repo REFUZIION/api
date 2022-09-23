@@ -2,9 +2,9 @@
 class Database{
    // Database instellingen
    private $host = "localhost";
-   private $db_name = "u533473_api";
-   private $username = "u533473_root";
-   private $password = "EC3MhWRR";
+   private $db_name = "crud_api";
+   private $username = "root";
+   private $password = "";
    public $conn;
    public function getConnection(){
        $this->conn = null;
